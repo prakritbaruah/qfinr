@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+		<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Roboto+Slab:wght@400;700&display=swap" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="main.css"/>
+	</head>
+
+	<body>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+		<script src="https://use.fontawesome.com/d11241d7ac.js"></script>
+
+		<script>
+			function contact_button_click() {
+				location.href = "construction.html";
+			} 
+			
+			function beta_tester_button_click() {
+				location.href = "construction.html";
+			} 
+		</script>
+
+		<!-- Navbar -->
+		<nav class="navbar navbar-expand-md fixed-top">
+
+			<!-- Brand -->
+			<a class="navbar-brand" href="index.html">
+				<img id="navbar-logo" src="img/Q.finr_transparent.png" alt="Logo">
+			</a>
+
+			<!-- Hamburger -->
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+				<span class="navbar-toggler-icon">
+					<i class="fa fa-bars" aria-hidden="true"></i>
+				</span>
+			</button>
+
+			<!-- Links -->
+			<div id="collapsibleNavbar" class="collapse navbar-collapse" >
+				<ul class="navbar-nav ">
+					<li class="nav-item mx-3">
+						<a class="nav-link text-center header-text" href="index.html">Platform</a>
+					</li>
+					<li class="nav-item mx-3">
+						<a class="nav-link text-center header-text" href="construction.html">Publications</a>
+					</li>
+					<li class="nav-item mx-3">
+						<a class="nav-link text-center header-text" href="construction.html">Tutorial</a>
+					</li>
+					<li class="nav-item mx-3">
+						<a class="nav-link text-center header-text" href="construction.html">Team</a>
+					</li>
+					<li class="nav-item mx-3 text-center">
+						<button type="button" class="btn btn-outline-dark header-text" onclick="contact_button_click()">Contact</button>
+					</li>
+
+					
+				</ul>
+			</div>
+		</nav>
+
+		<!-- Landing Page-->
+		<div id="landing-page" class="container-fluid">
+			<div id="landing-row" class="row align-items-center">
+				<!-- Text -->
+				<div id="landing-text-container" class="col-md text-center">
+					<div id="landing-text-box">
+						<h1 class="text-center header-text">Manage your investments intelligently</h1>
+						<!-- <p class="text-center header-text">Join the QFinr community by becoming a beta user today.</p> -->
+						<button type="button" class="btn btn-outline-dark text-center header-text mt-3 mb-5 mt-md-0 mb-md-0" onclick="beta_tester_button_click()">Become a Beta Tester</button>
+					</div>
+				</div>
+
+				<!-- Iphone Image --> 
+				<div id="landing-app-image-container" class="col-md text-center">	
+					<img id="landing-app-image" class="mb-3 mb-md-0" src="img/iphoneX_joint.png" alt="iPhone X">
+				</div>
+			</div>
+		</div>
+
+		<!-- App Description-->
+		<div id="app-description-page" class="container-fluid bg-light">
+			<div id="app-description-container" class="py-4 py-md-3">
+				<h3 class="text-center header-text">QFinr is Quantative Financial Research.</h3>
+				<p class="text-justify body-text">
+					QFinr is a comprehensive cloud based wealth management platform with a phone interface to capture inputs and view outputs. QFinr is designed to manage the complete investment cycle and deliver superior investment outcomes. It draws upon the latest academic research to draw insights into sources of investment alpha which,  in combination with mathematical and computational techniques, delivers a curated set portfolio(s) and tools for the investor.
+
+					</br></br>
+
+					QFinr will bring to you the Investor, and you the Wealth Manager, a unique and integrated platform that, for the first time, combines and analyses portfolios across products, markets and geographies. QFinr will also help you with the estimation of your risk capacity; will help you organise and construct portfolios; monitor, assess and manage risks; and will provide sophisticated tools to optimise portfolios on risk and return axes.
+
+				</p>
+			</div>
+		</div>
+
+		<!-- Company Values -->
+		<div class="container-fluid text-center my-5">
+
+			<!-- Value 1-->
+			<div class="company-values-box my-5">
+				<img class="values-icon my-2" src="img/idea-colour.png">
+				<h4 class="text-center header-text">You, the Investor</h3>
+				<p class="text-justify body-text">
+					QFinr is the personal “Chief Investment Officer” for you, the individual investor. QFinr uses a comprehensive library of mathematical tools to access market data to run researched based algorithms to deliver a personalised set of tools. These tools are designed to help you, the investor make informed decisions about your portfolio. In short, QFinr lets you organise, improve and plan personal investments, all on your own. 
+				</p>
+			</div>
+
+			<!-- Value 2 -->
+			<div class="company-values-box my-5">
+				<img class="values-icon my-2" src="img/mission-colour.png">
+				<h4 class="text-center header-text">You, the Wealth Advisor</h3>
+				<p class="text-justify body-text">
+					The Wealth Management business is faced with a complex of regulatory requirements. QFinr is designed to automate the time consuming regulatory and other tasks giving you, the Wealth Advisor time and space to focus on those aspects of client interaction that truly add value to both sides. The comprehensive set of risk management tools delivered real time by QFinr will enhance your conversations with clients. 
+				</p>
+			</div>
+
+			<!-- Value 3 -->
+			<div class="company-values-box my-5">
+				<img class="values-icon my-2" src="img/money-colour.png">
+				<h4 class="text-center header-text">The Team</h3>
+				<p class="text-justify body-text">
+					QFinr has been under development for 3 long years. It is brought to the market by a very experienced team with more than 90 years of cumulative experience in Global Markets, Wealth Management and Active Investments. 
+				</p>
+			</div>
+		</div>
+
+		<!-- Footer-->
+		<footer class="align-items-center bg-light mx-0">
+			<div class="row">
+				<div id="footer-website-links" class="col-md mt-4 mb-3 mt-md-5 mb-md-3">
+					<ul class="my-auto">
+						<li class="mx-4"><a href="index.html" class="body-text text-decoration-none">Platform</a></li>
+						<li class="mx-4"><a href="construction.html" class="body-text text-decoration-none">Publications</a></li>
+						<li class="mx-4"><a href="construction.html" class="body-text text-decoration-none">Tutorial</a></li>
+						<li class="mx-4"><a href="construction.html" class="body-text text-decoration-none">Team</a></li>
+					</ul>
+				</div>
+
+				<div id="footer-social-links" class="col-md mb-3 mt-3 mt-md-5 mb-md-3">
+					<ul class="my-auto">
+						<li class="mx-4"><a href="construction.html"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+						<li class="mx-4"><a href="construction.html"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+						<li class="mx-4"><a href="construction.html"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+						<li class="mx-4"><a href="construction.html"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
+					</ul>
+				</div>
+			</div>
+			<div id="copyright" class="row">
+				<p class="mx-auto text-center">Copyright QFinr 2020.</p>
+			</div>
+		</footer>
+	</body>
+</html>
+
